@@ -38,7 +38,7 @@ def first(text: str):
 def start():
     if __name__ == '__main__':
         first(result)
-        second(result)
+        # second(result)
         time.sleep(3600)
         start()
 
