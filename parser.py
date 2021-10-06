@@ -18,4 +18,4 @@ for n, i in enumerate(site, 1):
     res = f'{n}: {itemName} в {itemShop}\nНомер телефона: {itemNumber}\nСтоимость: {itemPrice}\nПричина продажи: {itemDescription}.\n\n '
     mas.extend(res)
 
-result = ''.join(mas) + '\n' + 'URL: https://re-store.ru/discount/'
+result = ''.join(mas) + '\n' + url
